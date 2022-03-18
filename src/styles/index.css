@@ -10,3 +10,66 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.notebook{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    width: 800px;
+    height: 45px;
+    background-color: rgb(253, 253, 247);
+}
+img{
+    margin-left: 34px;
+
+}
+
+h3 {
+  display: flex;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.newTask{
+    display: flex;
+    margin-left:50px;
+}
+.entryList{
+    margin-top:50px;
+    position: absolute;
+    display: block;
+    width: 800px;
+    height: auto;
+    background-color:rgba(253, 253, 247, 0.856);
+    padding-bottom:20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+ul{
+display: block;
+margin: 0px;
+width: 800px;
+height: auto;
+background-color: rgba(249, 253, 247, 0.863);
+padding-bottom:20px;
+border-bottom-right-radius: 25px;
+
+}
+li{
+display: block;
+padding:10px;
+margin: 10px;
+width: 730px;
+height: 70px;
+background-color: rgba(150, 150, 150, 0.692);
+padding-bottom:20px;
+border-bottom-right-radius: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.add{margin-left:200px;
+    border: 0px;
+    background-color: transparent !important; }
+.delete{float: right;
+    border: 0px;
+    background-color: transparent !important; }
