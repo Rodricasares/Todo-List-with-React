@@ -1,4 +1,17 @@
 
+
+body{
+    background-image: url("https://fondosmil.com/fondo/52714.jpg");}
+
+
+
+
+
+
+
+
+
+
 /* 
 
     You can write your own styles here...
@@ -9,15 +22,15 @@
     
     import 'relative/path/to/stylesheet.scss';
 
-*/
+
 .notebook{
     display: flex;
-    margin: auto;
-    margin-top: 10px;
+    margin: 0;
     width: 800px;
-    height: 45px;
-    background-color: rgb(253, 253, 247);
+    background-color: rgb(26, 26, 22);
 }
+
+
 img{
     margin-left: 34px;
 
@@ -73,3 +86,6 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .delete{float: right;
     border: 0px;
     background-color: transparent !important; }
+
+    */
+   
