@@ -18,8 +18,12 @@ const Note = () => {
 		setTask(task.filter((deleteMe) => item != deleteMe));
 	//const Save Task
 	const Save = (e) => {
-		setTask([...task, text]);
-		setText("");
+		if (text === "" || task.includes(text)) {
+			alert("La tarea ya exicte o el campo esta vacío");
+		} else {
+			setTask([...task, text]);
+			setText("");
+		}
 	};
 
 	return (
